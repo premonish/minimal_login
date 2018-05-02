@@ -1,0 +1,66 @@
+body {
+			font-family: "Do Hyeon", helvetica sans-serif;
+			color: white;
+			font-size: 130%;
+			background: url(https://images.unsplash.com/photo-1496277397776-ca8089ecc5b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8788c40854a2dece7b70927c31806802&auto=format&fit=crop&w=1350&q=80);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+input {
+			padding: 8px 5px 8px 15px;
+			font-size: 25px;
+			border-radius: 5px;
+			border: 1px solid grey;
+			width: 320px;
+			font-family: "Nunito", "Do Hyeon", helvetica sans-serif;
+			background-color: rgba(0,0,0,.06);
+			border: none;
+			box-shadow: none;
+			color: white;
+		}
+		
+label	{
+			position: relative;
+			top: 12px;
+			width: 150px;
+			float: left;
+
+		}
+#wrapper {
+			width: 600px;
+			margin: 300px auto;
+		}
+.form-element {
+			margin-bottom: 10px;
+			font-family: "Do Hyeon", helvetica sans-serif;
+		}
+#submit-button {
+			width: 130px;
+			margin-left: 380px;
+			background-color: transparent;
+			border: none;
+			color: white;
+			font-family: "Do Hyeon", helvetica sans-serif;
+
+		}
+#errorMessage {
+			color: pink;
+			font-size: 90% !important;
+		}
+#successMessage {
+			color: white;
+			font-size: 90% !important;
+			display: none;
+			margin-bottom: 20px;
+		}
+a {
+	background-color: rgba(0,0,0,.05);
+	color:white;
+	text-decoration:none;
+	padding:4px 6px;
+	font-size:18px;
+	font-weight:bold;
+	line-height:1.2;
+	display:inline-block;
+	border-radius:3px;
+}
